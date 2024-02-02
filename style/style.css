@@ -1,0 +1,44 @@
+/* .nav-pills .nav-item
+{
+    border: 1px solid #ffffff;
+    border-radius: 20%/50%;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+} */
+
+/* .navbar-nav .nav-item
+{
+    border: 1px solid #ffffff;
+    border-radius: 20%/50%;
+    width: 100px;
+    text-align: center;
+}
+
+.navbar-nav .nav-item:hover
+{
+    border: 1px solid #0dcaf0;
+    
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+
+.nav-item .nav-link:hover
+{
+    color: #0dcaf0 !important;
+}
+
+
+.skill-img {
+    margin: 0 5em 0 5em;
+}
+
+.bg-darkgray {
+    background-color: #1a1c1c;
+}
+
+ 
+/* about-text */
