@@ -1,36 +1,10 @@
-/* .nav-pills .nav-item
-{
-    border: 1px solid #ffffff;
-    border-radius: 20%/50%;
-    width: 100px;
-    height: 50px;
-    text-align: center;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxanium&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
 
-/* .navbar-nav .nav-item
-{
-    border: 1px solid #ffffff;
-    border-radius: 20%/50%;
-    width: 100px;
-    text-align: center;
-}
-
-.navbar-nav .nav-item:hover
-{
-    border: 1px solid #0dcaf0;
-    
-} */
-
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
-
-
-.nav-item .nav-link:hover
-{
+.nav-item .nav-link:hover {
     color: #0dcaf0 !important;
 }
-
 
 .skill-img {
     margin: 0 5em 0 5em;
@@ -40,5 +14,60 @@
     background-color: #1a1c1c;
 }
 
- 
-/* about-text */
+@keyframes grow {
+    0% {
+        transform: scale(0);
+        /* Start from zero size */
+    }
+
+    100% {
+        transform: scale(1);
+        /* End at full size */
+    }
+}
+
+.bloom-effect {
+    /* Set the animation name, duration, delay, and fill mode */
+    animation-name: grow;
+    animation-duration: 0.5s;
+    /* Make the animation faster */
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.slide-right {
+    position: relative;
+    transform:  translateX(-200px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.slide-right.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-left {
+    position: relative;
+    transform:  translateX(200px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.slide-left.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slide-up {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    animation-delay: 1s;
+    transition: 1s all ease;
+}
+
+.slide-up.active {
+    transform: translateY(0);
+    opacity: 1;
+}

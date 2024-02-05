@@ -11,6 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script/script.js"></script>
 </head>
 
 <body class="bg-black">
@@ -38,38 +40,23 @@
 
         <div class="vh-100 d-flex flex-column justify-content-center">
             <div class="row">
-                <div class="col-6 my-auto">
+                <div class="col-6 my-auto bloom-effect">
                     <span class="display-3 text-light">Mechanics and Behaviour <br> <span class="text-info">Game
                             Designer</span></span>
                 </div>
-                <div class="col-6 text-end">
+                <div class="col-6 text-end bloom-effect">
                     <img class="rounded-circle border border-5 border-info" src="./images/Profile.png"
                         alt="Profile Image" height="400px">
                 </div>
             </div>
         </div>
 
-
-
-
-        <!-- <div class="info-container">
-            <div class="row">
-                <div class="card bg-transparent col-6">
-                    <div class="card-body">
-                        <img class="card-img-top" src="./images/Moonlight-MC.png" alt="">
-                        <div class="card-title">Game</div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
     </div>
 
     <div class="container-fluid bg-dark p-0 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6 about-text d-flex flex-column justify-content-around">
+                <div class="col-6 about-text d-flex flex-column justify-content-around slide-right">
                     <span class="h2 text-info mt-3">WELCOME</span>
                     <p class="h4 text-light">I'm a beginner game developer with a passion for creating immersive and
                         engaging
@@ -81,7 +68,7 @@
                     <p class="h4 text-light">I have also completed several online courses and tutorials
                         to improve my skills and learn new techniques.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-6 slide-left">
                     <div class="d-flex my-5">
                         <div class="align-self-start">
                             <img src="./images/gamepad.png" alt="gamepad" height="150" width="150">
@@ -111,20 +98,20 @@
         <div class="bg-darkgray text-center">
             <div class="container py-5">
                 <img src="./images/Unity-logo.png" alt="Unity" height="200" width="200"
-                    class="skill-img img-fluid rounded">
-                <img src="./images/Blender-logo.png" alt="Blender" height="200" width="200" class="skill-img img-fluid">
+                    class="skill-img img-fluid rounded slide-up">
+                <img src="./images/Blender-logo.png" alt="Blender" height="200" width="200" class="skill-img img-fluid slide-up">
                 <img src="./images/Photoshop-logo.png" alt="Photoshop" height="200" width="200"
-                    class="skill-img img-fluid">
+                    class="skill-img img-fluid slide-up">
             </div>
         </div>
 
         <div class="container">
             <div class="row">
-                <span class="h2 text-info my-3">FEATURED</span>
-                <div class="col-6">
-                    <img src="./images/Moonlight-MC.png" alt="content" height="360" width="640">
+                <div class="col-6 my-3 slide-right">
+                    <span class="h2 text-info">FEATURED</span>
+                    <div class="my-3"><img src="./images/Moonlight-MC.png" alt="content" height="360" width="640"></div>
                 </div>
-                <div class="col-6 d-flex flex-column justify-content-around">
+                <div class="col-6 d-flex flex-column justify-content-around slide-left">
                     <span class="display-5 text-light">INFO TITLE</span>
                     <p class="text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora sapiente
                         exercitationem nobis
@@ -140,7 +127,7 @@
 
     </div>
 
-    <div class="container">
+    <div class="container slide-up">
         <h2 class="h2 text-info text-center mt-3">CONTACT</h2>
         <form>
             <div class="form-group mt-4">
@@ -155,12 +142,14 @@
                 <label for="message" class="text-secondary h5">Message</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
             </div>
-            <button type="submit" class="form-control btn btn-outline-info mt-4 text-light"><span class="h6 fw-light">Submit</span></button>
+            <button type="submit" class="form-control btn btn-outline-info mt-4 text-light"><span
+                    class="h6 fw-light">Submit</span></button>
         </form>
     </div>
 
     <footer class="footer bg-dark mt-5">
-        <p class="text-center text-secondary m-0 p-3" style="font-family: 'Oxanium', sans-serif;"> DISHANT MOHAPATRA &copy; 2024 | ALL RIGHTS RESERVED</p>
+        <p class="text-center text-secondary m-0 p-3" style="font-family: 'Oxanium', sans-serif;"> DISHANT MOHAPATRA
+            &copy; 2024 | ALL RIGHTS RESERVED</p>
     </footer>
 
 </body>
