@@ -19,10 +19,32 @@ p {
     background-color: #1a1c1c;
 }
 
+
+.bg-dark-1 {
+    background-color: #000000;
+}
+
+.bg-dark-2 {
+    background-color: #111111;
+}
+
+.bg-dark-3 {
+    background-color: #191919;
+}
+
+/* .text-orange {
+    color: #EEEEEE;
+} */
+
 @keyframes grow {
     0% {
         transform: scale(0);
         /* Start from zero size */
+    }
+
+    50% {
+        transform: scale(1.1);
+        
     }
 
     100% {
