@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -97,4 +99,30 @@ p {
 .slide-up.active {
     transform: translateY(0);
     opacity: 1;
+}
+
+
+.display-img {
+    box-shadow: 0px 0px 10px 10px #0dcaf0;
+    border-radius: 75px;
+}
+
+.soc-icon {
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #0dcaf0;
+    border-radius: 50%;
+    transition: 0.5s all ease;
+}
+
+.soc-icon:hover {
+    color: #191919;
+    border: 2px solid #ffffff;
+    background-color: #0dcaf0;
 }
