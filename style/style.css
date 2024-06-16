@@ -113,7 +113,7 @@ p {
   height:400px;
   background:transparent;
   border-radius:50%;
-  box-shadow:0 0 30px #0dcaf0;
+  box-shadow:0 0 500px 50px #0dcaf059;
 }
 .ring:before
 {
@@ -180,6 +180,16 @@ p {
     box-shadow: 0px 0px 10px 10px #0dcaf0;
     border-radius: 75px;
 } */
+
+
+.featured-text-box {
+    /* font-family: ; */
+    /* border: 1px solid #ffffff; */
+    border-radius: 10px;
+    /* background-color: #0dbcdf3c; */
+    /* box-shadow: 0px 0px 20px 0px #0dcaf0; */
+    backdrop-filter: blur(10px);
+}
 
 .soc-icon {
     height: 50px;
